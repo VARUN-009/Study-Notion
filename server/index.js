@@ -13,7 +13,7 @@ const { cloudinaryConnect } = require("./config/cloudinary");
 const fileUpload = require("express-fileupload");
 const dotenv = require("dotenv");
 
-// Setting up port number
+// Setting up port number -  humesha aise hi karna hai direct 4000 ni karna hai direct PORT ki jagah 4000 ni likhna hai warna ho sakta hai deploy na ho 4000 port use na akrde de and and root directory m folder nhi hai server backend ka toh humne then ./server dala ki yahn pe hai and also e.nv add karne padege 
 const PORT = process.env.PORT || 4000;
 
 // Loading environment variables from .env file
